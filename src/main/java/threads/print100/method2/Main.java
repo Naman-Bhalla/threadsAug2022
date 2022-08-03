@@ -20,6 +20,7 @@ public class Main {
             PrintNumber printNumber = new PrintNumber(i);
             executor.execute(printNumber);
         }
+        ((ExecutorService) executor).shutdown();
     }
 }
 
