@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01db754e-5d86-4813-8ee0-b85b9543f263" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/mergesort/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/mergesort/Sorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/print100/threadpool/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/threads/print100/threadpool/PrintNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractor/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractor/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractor/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractorsynchronizedmethod/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractorsynchronizedmethod/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractorsynchronizedmethod/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractorsynchronizedmethod/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractorsynchronizedobject/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractorsynchronizedobject/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractorsynchronizedobject/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/threads/addersubtractorsynchronizedobject/Subtractor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/threads/print100/method2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/threads/print100/method2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,24 +51,52 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/threadsAug2022/threadsAug2022/src/main/java/threads/print100/threadpool",
+    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/threadsAug2022/threadsAug2022/src/main/java/threads/addersubtractorsynchronizedmethod",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/threads/addersubtractorsynchronizedmethod" />
+      <recent name="$PROJECT_DIR$/src/main/java/threads/addersubtractorsynchronizedobject" />
       <recent name="$PROJECT_DIR$/src/main/java/threads/print100/threadpool" />
       <recent name="$PROJECT_DIR$/src/main/java/threads/print100/method2" />
       <recent name="$PROJECT_DIR$/src/main/java/threads/creation/extendthread" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.threads.mergesort.Main">
-    <configuration name="threads.creation.extendthread.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.creation.extendthread.Main" />
+  <component name="RunManager" selected="Application.threads.addersubtractorsynchronizedmethod.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.addersubtractor.Client" />
       <module name="threadsAug2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threads.creation.extendthread.*" />
+          <option name="PATTERN" value="threads.addersubtractor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="threads.addersubtractorsynchronizedmethod.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.addersubtractorsynchronizedmethod.Client" />
+      <module name="threadsAug2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.addersubtractorsynchronizedmethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="threads.addersubtractorsynchronizedobject.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.addersubtractorsynchronizedobject.Client" />
+      <module name="threadsAug2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.addersubtractorsynchronizedobject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,32 +110,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="threads.mergesort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="threads.print100.method1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.print100.method1.Main" />
-      <module name="threadsAug2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threads.print100.method1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="threads.print100.method2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.print100.method2.Main" />
-      <module name="threadsAug2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threads.print100.method2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.threads.addersubtractorsynchronizedmethod.Client" />
+        <item itemvalue="Application.threads.addersubtractorsynchronizedobject.Client" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.threads.mergesort.Main" />
         <item itemvalue="Application.threads.print100.threadpool.Main" />
-        <item itemvalue="Application.threads.print100.method2.Main" />
-        <item itemvalue="Application.threads.print100.method1.Main" />
-        <item itemvalue="Application.threads.creation.extendthread.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +149,8 @@
       <option name="presentableId" value="Default" />
       <updated>1659202414721</updated>
       <workItem from="1659202416652" duration="1549000" />
-      <workItem from="1659452991381" duration="7636000" />
+      <workItem from="1659452991381" duration="8340000" />
+      <workItem from="1659798640321" duration="7996000" />
     </task>
     <servers />
   </component>
@@ -185,6 +195,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/threads/mergesort/Sorter.java</url>
           <line>20</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threads/addersubtractor/Client.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/threads/addersubtractor/Adder.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
