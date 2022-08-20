@@ -1,5 +1,7 @@
 package threads.addersubtractorsynchronizedmethod;
 
+import java.util.concurrent.Semaphore;
+
 public class Count {
     private int value = 0;
 
@@ -13,6 +15,11 @@ public class Count {
 
     public synchronized void incrementValue(int offset) {
         this.value += offset;
+        //lockForA.lock()
+        // lockForB.lock()
+        // lockForC.lock()
+
+        
 
 //        int currentValue = this.value;
 //        int nextValue = currentValue + offset;
